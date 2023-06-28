@@ -1,0 +1,7 @@
+-
+  name: Playbook test 1
+  hosts: all
+  tasks:
+    - name: Test connectivity
+      ping:
+      
